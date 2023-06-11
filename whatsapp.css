@@ -1,0 +1,60 @@
+.cssanimatione,
+.cssanimatione span {
+    animation-duration: 10s;
+    animation-fill-mode: both;
+
+}
+
+.cssanimatione span {
+    display: inline-block
+}
+
+.fadeInBottome {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottome {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+
+    }
+
+    to {
+        opacity: 1;
+        color: aliceblue;
+    }
+}
+
+
+
+
+.logoresp {
+
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    position: fixed;
+    top: 89vh;
+    right: 0px;
+
+}
+
+
+
+@media(max-width:700px) {
+
+
+    .logoresp {
+
+        width: 100%;
+        max-width: 90px;
+        height: auto;
+        position: fixed;
+        top: 89vh;
+        right: 0px;
+
+    }
+
+
+}

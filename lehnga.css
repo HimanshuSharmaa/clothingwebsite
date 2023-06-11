@@ -1,0 +1,225 @@
+
+.contmainlehngahd {
+
+    text-align: center;
+    margin-top: 6vw;
+    font-family: 'Imprima', sans-serif;
+    font-size: 50px;
+
+}
+
+
+
+
+
+.contmainlehngacoll {
+    display: flex;
+    justify-content: space-between;
+    margin: 6vw 60px 0px 60px;
+    /* background-color: aqua; */
+    margin-bottom: 100px;
+
+}
+
+.contmainlh1 {
+
+
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+
+    /* background-color: aliceblue; */
+}
+
+.resplh {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .contmainlehngahd{
+
+        text-align: center;
+        /* margin-top: 60px; */
+        
+        font-family: 'Imprima', sans-serif;
+        /* font-size: 10vw; */
+
+    }
+
+
+
+
+
+    .contmainlehngacoll {
+        display: flex;
+        justify-content: space-between;
+        margin: 150px 20px 0px 20px;
+
+    }
+
+    .contmainlh1 {
+
+
+        margin: 20px;
+        margin-top: -60px;
+        font-size: 20px;
+        font-family: 'Outfit', sans-serif;
+
+        /* background-color: aliceblue; */
+    }
+
+    .resplh {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+
+
+    .contmainlehngahd {
+
+        text-align: center;
+        margin-top: 6vh;
+        font-family: 'Imprima', sans-serif;
+        font-size: 30px;
+
+    }
+
+
+
+
+
+    .contmainlehngacoll {
+        display: flex;
+        justify-content: space-between;
+        margin: 150px 10px 0px 10px;
+
+    }
+
+    .contmainlh1 {
+
+
+        margin: 10px;
+        margin-top: -60px;
+        font-size: 14px;
+        font-family: 'Outfit', sans-serif;
+
+        /* background-color: aliceblue; */
+    }
+
+    .resplh {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+
+    }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+
+    .contmainlehngahd {
+
+        text-align: center;
+        margin-top: 80px;
+        font-family: 'Imprima', sans-serif;
+        font-size: 30px;
+        margin-bottom: 50px;
+
+    }
+
+
+
+
+
+    .contmainlehngacoll {
+        display: flex;
+align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px 20px 0px 20px;
+
+    }
+
+    .contmainlh1 {
+
+
+        margin: 20px;
+
+
+        font-size: 20px;
+        font-family: 'Outfit', sans-serif;
+
+        /* background-color: aliceblue; */
+    }
+
+    .resplh {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+
+    }
+
+
+
+}
+
+
+
+
+.cssanimationlh,
+.cssanimationlh span {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+
+}
+
+.cssanimationlh span {
+    display: inline-block
+}
+
+.fadeInBottomlh {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+
+    }
+
+    to {
+        opacity: 1;
+        color: aliceblue;
+    }
+}
+
